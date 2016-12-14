@@ -1,0 +1,51 @@
+figcaption {
+  color: #fff;
+  text-align: center;
+  background-color: #006699;
+  margin-top: -0.3em;
+  padding: 0.5em;
+}
+
+.article {
+  margin-left: -0.5em;
+}
+
+.article-left-side {
+  vertical-align: bottom;
+  display: inline-block;
+  text-align: left;
+}
+
+.article-right-side {
+  display: inline-block;
+  text-align: right;
+  max-width: 60%;
+  height: auto;
+  margin-right: -9em;
+}
+
+.article-title {
+  color: #006699;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.article-image > figure {
+  padding: 0.2em;
+  border: #cccccc solid 1px;
+}
+
+.article-details {
+  color: #006699;
+  text-align: left;
+}
+
+.article-date, .article-topic {
+  text-align: left;
+  float: left;
+}
+
+.article-comments, .article-author {
+  text-align: right;
+}
